@@ -1,5 +1,0 @@
-<?php
-
-    $userName;
-    $userHeight;
-    $userWeight;
