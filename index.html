@@ -11,22 +11,25 @@
 <body>
     
     <div class="form">
-        <h1>Calcule seu IMC</h1>
+        <h1 class="title">Calcule seu IMC</h1>
         
         <form action="" method="POST">
             <label for="userName">Nome:</label>
-            <input type="text" name="userName">
+            <input type="text" name="userName" class="textUser" id="userName">
 
             <label for="userHeight">Digite seu Peso:</label>
-            <input type="text" name="userHeight">
+            <input type="text" name="userHeight" class="textUser" id="userHeight">
 
             <label for="userWeight">Digite sua altura:</label>
-            <input type="text" name="userWeight">
+            <input type="text" name="userWeight" class="textUser"id="userWeight">
 
-            <input type="button" value="Calcular" class="button">
+            <input type="button" onclick="Calcule()" class="button" value="Calcular">
         </form>
     </div>
     
+    <div class="result">
+        
+    </div>
 
 </body>
 </html>
